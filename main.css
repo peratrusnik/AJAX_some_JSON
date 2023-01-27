@@ -1,0 +1,12 @@
+.loading::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(10, 10, 10, .5);
+    background-image: url('loading.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
